@@ -1,0 +1,39 @@
+header, ul {
+  list-style: none;
+  display: inline-flex;
+  font-family: 'Spline Sans Mono', monospace; 
+}
+.header {
+  font-family: 'Spline Sans Mono', monospace; 
+
+}
+#top-nav-name {
+  font-weight: 600;
+  font-size: 40px;
+  padding-right: 250px;
+}
+.top-navigation {
+  display: inline-flex;
+  padding: 25px 40px;
+}
+li {
+  padding-right: 100px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.top-nav-number {
+  font-weight: 600;
+  padding-right: 1px;
+}
+.nav {
+  padding-right: 50px
+}
+
+#resume {
+  font-weight: 600;
+  color: rgba(235, 37, 6, 0.8) 
+}
+body {
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 14px;
+}
