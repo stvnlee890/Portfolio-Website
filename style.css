@@ -1,20 +1,22 @@
-header, ul {
+
+/*---HEADER---*/
+.header, ul {
   list-style: none;
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace; 
 }
 .header {
-  font-family: 'Spline Sans Mono', monospace; 
-
+  margin-top: 30px;
+  margin-left: 50px
 }
 #top-nav-name {
-  font-weight: 600;
+ 
   font-size: 40px;
-  padding-right: 250px;
+  padding-right: 85px;
 }
 .top-navigation {
   display: inline-flex;
-  padding: 25px 40px;
+  padding: 25px 60px;
 }
 li {
   padding-right: 100px;
@@ -33,7 +35,30 @@ li {
   font-weight: 600;
   color: rgba(235, 37, 6, 0.8) 
 }
-body {
+
+
+/*---BODY---*/
+.introduction {
+  display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
+}
+
+.introduction {
+  padding: 25px 40px;
+  margin-left: 200px;
+  margin-top: 400px;
+  padding-bottom: 0px;
+}
+.body-title {
+  font-weight: 300;
+}
+.intro-content {
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  margin-right: 750px;
+  margin-left: 100px
+}
+p {
+  padding: 40px;
 }
