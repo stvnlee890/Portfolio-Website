@@ -42,6 +42,8 @@ li {
 
 
 /*---BODY---*/
+
+/*--INTRO CONTENT---*/
 .introduction {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
@@ -52,17 +54,7 @@ li {
   padding-bottom: 0px;
   font-size: 18px;
 }
-.project-page {
-  display: inline-flex;
-  font-family: 'Spline Sans Mono', monospace;
-  font-size: 14px;
-  font-size: 18px;
-  padding: 25px 40px;
-  margin-left: 500px;
-  margin-top: 150px;
-  padding-bottom: 0px;
-  font-size: 18px;
-}
+
 .intro-content {
   display: flex
 }
@@ -77,11 +69,55 @@ li {
   border-radius: 10px;
   border-radius: 9px;
   width: auto;
-  height: 523px;
+  height: 400px;
   margin-right: 100px;
   margin-left: 100px
 }
 #intro-text {
-  
   margin-right: 100px;
+}
+
+/*--PROJECT CONTENT---*/
+.project-page {
+  display: inline-flex;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 14px;
+  font-size: 18px;
+  padding: 25px 40px;
+  margin-left: 500px;
+  margin-top: 150px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+.project-content {
+  display: flex;
+}
+
+#project-1 {
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  border-radius: 9px;
+  width: auto;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 100px
+}
+#project-2 {
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  border-radius: 9px;
+  width: auto;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 100px
+}
+#project-3 {
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  border-radius: 9px;
+  width: auto;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: 100px
 }
