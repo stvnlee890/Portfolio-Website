@@ -5,14 +5,18 @@
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace; 
 }
+body {
+  font-family: 'Spline Sans Mono', monospace; ;
+}
 .header {
   margin-top: 30px;
   margin-left: 50px
 }
 #top-nav-name {
- 
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 30px;
   padding-right: 85px;
+  margin-top: 5px
 }
 .top-navigation {
   display: inline-flex;
@@ -42,23 +46,42 @@ li {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
-}
-
-.introduction {
   padding: 25px 40px;
   margin-left: 200px;
-  margin-top: 400px;
+  margin-top: 150px;
   padding-bottom: 0px;
+  font-size: 18px;
 }
+.project-page {
+  display: inline-flex;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 14px;
+  font-size: 18px;
+  padding: 25px 40px;
+  margin-left: 500px;
+  margin-top: 150px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+.intro-content {
+  display: flex
+}
+
+
 .body-title {
   font-weight: 300;
 }
-.intro-content {
+
+#profile-image {
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 10px;
-  margin-right: 750px;
+  border-radius: 9px;
+  width: auto;
+  height: 523px;
+  margin-right: 100px;
   margin-left: 100px
 }
-p {
-  padding: 40px;
+#intro-text {
+  
+  margin-right: 100px;
 }
