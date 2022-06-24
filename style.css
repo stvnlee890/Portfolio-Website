@@ -6,11 +6,20 @@
   font-family: 'Spline Sans Mono', monospace; 
 }
 body {
-  font-family: 'Spline Sans Mono', monospace; ;
+  font-family: 'Spline Sans Mono', monospace; 
+  max-width: 100%;
+  margin-top: 0px;
 }
 .header {
-  margin-top: 30px;
   margin-left: 50px
+}
+#top-nav-bar {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  padding-top:30px;
+}
+.sticky {
+  position: fixed
 }
 #top-nav-name {
   font-weight: 600;
@@ -88,6 +97,10 @@ li {
   margin-top: 150px;
   padding-bottom: 0px;
   font-size: 18px;
+}
+
+.project-content {
+  margin-top: 70px;
 }
 
 .project-content {
