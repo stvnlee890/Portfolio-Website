@@ -60,7 +60,7 @@ li {
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
   padding: 25px 40px;
-  margin-left: 200px;
+  margin-left: 140px;
   margin-top: 150px;
   padding-bottom: 0px;
   font-size: 18px;
@@ -135,4 +135,26 @@ li {
   height: 300px;
   margin-right: 100px;
   margin-left: 100px
+}
+
+/*--EXPERIENCE CONTENT---*/
+.experience-page {
+  display: inline-flex;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 14px;
+  padding: 25px 40px;
+  margin-left: 770px;
+  margin-top: 150px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+.experience-content {
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  border-radius: 9px;
+  margin-left: 700px;
+  margin-right: 150px;
+}
+p {
+  padding: 20px
 }
