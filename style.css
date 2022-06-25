@@ -1,6 +1,6 @@
 
 /*---HEADER---*/
-.header, ul {
+/* .header, ul {
   list-style: none;
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace; 
@@ -12,18 +12,18 @@ body {
 }
 .header {
   margin-left: 50px
-}
+} */
 /* STICKY NAV */
-#top-nav-bar {
+/* #top-nav-bar {
   background: rgba(255, 255, 255, 0.8);
   margin-top: 0px;
   padding-top: 30px;
 }
 .header {
   position: fixed; 
-}
+} */
 /* STICKY NAV */
-#top-nav-name {
+/* #top-nav-name {
   font-weight: 600;
   font-size: 30px;
   padding-right: 85px;
@@ -49,13 +49,13 @@ li {
 #resume {
   font-weight: 600;
   color: rgba(235, 37, 6, 0.8) 
-}
+} */
 
 
 /*---BODY---*/
 
 /*--INTRO CONTENT---*/
-.introduction {
+/* .introduction {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
@@ -86,10 +86,10 @@ li {
 }
 #intro-text {
   margin-right: 100px;
-}
+} */
 
 /*--PROJECT CONTENT---*/
-.project-page {
+/* .project-page {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
@@ -135,10 +135,10 @@ li {
   height: 300px;
   margin-right: 100px;
   margin-left: 100px
-}
+} */
 
 /*--EXPERIENCE CONTENT---*/
-.experience-page {
+/* .experience-page {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
@@ -157,4 +157,95 @@ li {
 }
 p {
   padding: 20px
+} */
+
+
+/* MEDIA QUERY*/
+@media (max-width: 480px) {
+  /* NAVIGATION */
+  body {
+    font-family:'Spline Sans Mono', monospace ;
+  }
+  #top-nav-name {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .top-navigation {
+    list-style: none;
+    display: flex; 
+    font-size: 10px;
+    justify-content: start;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .top-nav-number {
+    font-weight: 600;
+  }
+  .nav {
+    padding-right: 20px;
+  }
+  /* #top-nav-bar {
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .header {
+    position: fixed;  */
+
+    /* INTRO CONTENT */
+  .introduction {
+    display: flex;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  .body-title {
+    font-weight: 300;
+  }
+  #profile-image {
+    display: flex;
+    width: 300px;
+    height: auto;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 10px;
+    border-radius: 9px;
+  }
+  #intro-text {
+    display: flex;
+    font-size: 12px;
+  }
+
+  /* PROJECT PAGE */
+  .project-page {
+    display: flex;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  #project-1 {
+    display: flex;
+    width: 300px;
+    height: auto;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 10px;
+    border-radius: 9px;
+  }
+  #project-2 {
+    display: flex;
+    width: 300px;
+    height: auto;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 10px;
+    border-radius: 9px;
+  }
+  #project-3 {
+    display: flex;
+    width: 300px;
+    height: auto;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 10px;
+    border-radius: 9px;
+  }
 }
