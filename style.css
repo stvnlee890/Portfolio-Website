@@ -13,14 +13,16 @@ body {
 .header {
   margin-left: 50px
 }
+/* STICKY NAV */
 #top-nav-bar {
   background: rgba(255, 255, 255, 0.8);
   margin-top: 0px;
-  padding-top:30px;
+  padding-top: 30px;
 }
-.sticky {
-  position: fixed
+.header {
+  position: fixed; 
 }
+/* STICKY NAV */
 #top-nav-name {
   font-weight: 600;
   font-size: 30px;
