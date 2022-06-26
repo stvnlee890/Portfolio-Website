@@ -160,27 +160,28 @@ li {
     width: 100%;
     list-style: none;
     padding-top: 40px;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: rgba(240, 232, 209, 0.8)
   }
   
   /* STICKY NAV */
   li {
-    padding-right: 5%;
-    font-size: 14px;
+    padding-right: 4%;
+    font-size: 12px;
   }
   .top-nav-number {
     font-weight: 600;
-    padding-right: .5px;
+    padding-right: .4px;
   }
   #resume {
     font-weight: 600;
     color: rgba(235, 37, 6, 0.8);
+    padding-right: none;
   } 
   
   #name {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 60px;
     width:100%;
     text-align: center;
@@ -193,7 +194,7 @@ li {
     display: flex;
     justify-content: center;
     font-family: 'Spline Sans Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20%;
   }
   .body-title {
@@ -202,6 +203,7 @@ li {
   .intro-content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   #selfie {
     border: 1px solid rgba(235, 37, 6, 0.8);
@@ -210,10 +212,10 @@ li {
     margin-left: 30px;
     margin-top: 20px;;
     width: auto;
-    height: 18vh;
+    height: 30vh;
   }
   #intro-text {
-    width: 40%;
+    width: 80%;
     font-size: 14px;
     margin-left: 30px;
   } 
@@ -224,22 +226,23 @@ li {
     display: flex;
     justify-content: center;
     font-family: 'Spline Sans Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 40%;
   }
   
   .project-content {
-    justify-content: space-between;
     margin-top: 14px;
-    align-content: center; 
+    /* align-content: center;  */
   }
   .project-content {
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%
+    flex-flow: column wrap;
+    margin-left: 40px;
+    margin-right: 5%;
   }
   #project-1 {
     border: 1px solid rgba(235, 37, 6, 0.8);
+    align-items: center;
     border-radius: 10px;
     border-radius: 9px;
     width: auto;
@@ -250,7 +253,7 @@ li {
     border-radius: 10px;
     border-radius: 9px;
     width: auto;
-    height: 30vh;
+    height: 34vh;
   }
   #project-3 {
     border: 1px solid rgba(235, 37, 6, 0.8);
@@ -265,13 +268,14 @@ li {
     display: flex;
     justify-content: center;
     font-family: 'Spline Sans Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 40%;
   }
   #experience-content {
     justify-content: center;
     margin-left: 10%;
-    width: 40%
+    width: 80%;
+    font-size: 14px;
   }
   
   .contact-page {
@@ -279,6 +283,9 @@ li {
     justify-content: center;
     margin-top: 40%;
     align-content: center; 
+  }
+  #experience-text {
+    font-size: 14px;
   }
   }
   
