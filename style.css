@@ -25,10 +25,12 @@ body {
 }
 
 /* STICKY NAV */
+.nav {
+  cursor: pointer;
+}
 li {
   padding-right: 5%;
   font-size: 14px;
-  cursor: pointer;
 }
 .top-nav-number {
   font-weight: 600;
