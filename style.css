@@ -1,6 +1,7 @@
 
 /*---HEADER---*/
 @media(min-width: 600px) {
+
 body {
   font-family: 'Spline Sans Mono', monospace; 
   max-width: 100%;
@@ -12,11 +13,15 @@ body {
 
  #top-nav-bar {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   list-style: none;
   padding-top: 40px;
   justify-content: space-evenly;
-  background-color: rgba(240, 232, 209, 0.8)
+  background-color: rgba(240, 232, 209, 0.8);
 }
 
 /* STICKY NAV */
@@ -36,7 +41,7 @@ li {
 #name {
   font-weight: 600;
   font-size: 60px;
-  margin-top: 60px;
+  margin-top: 80px;
   width:100%;
   text-align: center;
 }
@@ -157,6 +162,10 @@ li {
   
    #top-nav-bar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     list-style: none;
     padding-top: 40px;
@@ -182,7 +191,7 @@ li {
   #name {
     font-weight: 600;
     font-size: 40px;
-    margin-top: 60px;
+    margin-top: 80px;
     width:100%;
     text-align: center;
   }
@@ -277,14 +286,14 @@ li {
     width: 80%;
     font-size: 14px;
   }
-  
+  #experience-text {
+    font-size: 14px;
+  }
   .contact-page {
     display: flex;
     justify-content: center;
     margin-top: 40%;
     align-content: center; 
-  }
-  #experience-text {
     font-size: 14px;
   }
   }
