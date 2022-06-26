@@ -1,58 +1,50 @@
 
 /*---HEADER---*/
 @media(min-width: 600px) {
- .header, ul {
-  list-style: none;
-  display: flex;
-  font-family: 'Spline Sans Mono', monospace; 
-}
 body {
   font-family: 'Spline Sans Mono', monospace; 
   max-width: 100%;
   margin-top: 0px;
-  
 }
 
 /* STICKY NAV */
+
  #top-nav-bar {
-  display: inline-flex;
-  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  width: 100%;
+  list-style: none;
   margin-top: 0px;
   padding-top: 30px;
-  padding-left: o;
-  align-items: center;
-}
-.header {
-  position: fixed; 
-} 
-ul {
   padding-left: 0;
+  justify-content: space-evenly;
 }
+li {
+  display: fixed;
+}
+
 /* STICKY NAV */
  #top-nav-name {
   font-weight: 600;
-  font-size: 30px;
-  padding-right: 2px;
-  margin-top: 5px
+  font-size: 60px;
+  padding-left: 2px;
+  margin-top: 5px;
+  width:100%;
+  text-align: center;
+  /* background-color: grey; */
 }
 
 .top-navigation {
   display: flex;
-
+  background: rgba(255, 255, 255, 0.8);
 }
 li {
-  padding-right: 2%;
-  justify-content: space-between;
+  padding-right: 5%;
   font-size: 14px;
 }
 .top-nav-number {
   font-weight: 600;
-  padding-right: 1px;
+  padding-right: .5px;
 }
-.nav {
-  padding-right: 40px
-}
-
 #resume {
   font-weight: 600;
   color: rgba(235, 37, 6, 0.8) 
@@ -66,9 +58,9 @@ li {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 16px;
-  padding: 25px 40px;
-  margin-left: 140px;
-  margin-top: 150px;
+  /* padding: 25px 40px; */
+  margin-left: 16%;
+  margin-top: 20%;
   padding-bottom: 0px;
 }
 
@@ -87,7 +79,7 @@ li {
   border-radius: 9px;
   width: auto;
   height: 30vh;
-
+  margin-left: 8%;
 }
 
 
@@ -154,8 +146,8 @@ li {
 
 }
 p {
-  padding: 20px;
-  width: 60vw;
+  padding: 0px 20px 20px 40px;
+  width: 50vw;
   font-size: 14px;
 } 
 }
@@ -178,7 +170,7 @@ p {
     display: flex;
     list-style: none;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 20px;
   }
   .top-navigation {
@@ -211,7 +203,7 @@ p {
   }
   #profile-image {
     display: flex;
-    width: 300px;
+    width: 100%;
     height: auto;
     border: 1px solid rgba(235, 37, 6, 0.8);
     margin-top: 20px;
@@ -232,7 +224,7 @@ p {
   }
   #project-1 {
     display: flex;
-    width: 300px;
+    width: 100%;
     height: auto;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 10px;
@@ -242,7 +234,7 @@ p {
   }
   #project-2 {
     display: flex;
-    width: 300px;
+    width: 100%;
     height: auto;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 10px;
@@ -252,7 +244,7 @@ p {
   }
   #project-3 {
     display: flex;
-    width: 300px;
+    width: 100%;
     height: auto;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 10px;
