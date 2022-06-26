@@ -1,6 +1,6 @@
 
 /*---HEADER---*/
-@media(min-width: 480px) {
+@media(min-width: 600px) {
  .header, ul {
   list-style: none;
   display: flex;
@@ -10,36 +10,38 @@ body {
   font-family: 'Spline Sans Mono', monospace; 
   max-width: 100%;
   margin-top: 0px;
-  margin: 0 150px;
-  padding: 0 150px;
+  
 }
-.header {
-  margin-left: 50px
-} 
+
 /* STICKY NAV */
  #top-nav-bar {
-  display: flex;
+  display: inline-flex;
   background: rgba(255, 255, 255, 0.8);
   margin-top: 0px;
   padding-top: 30px;
+  padding-left: o;
   align-items: center;
 }
 .header {
   position: fixed; 
 } 
+ul {
+  padding-left: 0;
+}
 /* STICKY NAV */
  #top-nav-name {
   font-weight: 600;
   font-size: 30px;
-  padding-right: 85px;
+  padding-right: 2px;
   margin-top: 5px
 }
+
 .top-navigation {
   display: flex;
-  padding: 25px 60px;
+
 }
 li {
-  padding-right: 100px;
+  padding-right: 2%;
   justify-content: space-between;
   font-size: 14px;
 }
@@ -63,12 +65,11 @@ li {
  .introduction {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
-  font-size: 14px;
+  font-size: 16px;
   padding: 25px 40px;
   margin-left: 140px;
   margin-top: 150px;
   padding-bottom: 0px;
-  font-size: 18px;
 }
 
 .intro-content {
@@ -85,34 +86,31 @@ li {
   border-radius: 10px;
   border-radius: 9px;
   width: auto;
-  height: 400px;
-  margin-right: 100px;
-  margin-left: 100px
+  height: 30vh;
+
 }
-#intro-text {
-  margin-right: 100px;
-} 
+
 
 /*--PROJECT CONTENT---*/
   .project-page {
   display: flex;
   font-family: 'Spline Sans Mono', monospace;
-  font-size: 14px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 25px 40px;
-  margin-left: 500px;
-  margin-top: 150px;
   padding-bottom: 0px;
-  font-size: 18px;
-}
-
-.project-content {
-  align-items: center;
-  margin-top: 70px;
 }
 
 .project-content {
   display: flex;
+  align-items: center;
+  margin-top: 70px;
+  align-content: center; 
+}
+
+.project-content {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%
 }
 
 #project-1 {
@@ -120,27 +118,25 @@ li {
   border-radius: 10px;
   border-radius: 9px;
   width: auto;
-  height: 300px;
-  margin-right: 100px;
-  margin-left: 100px
+  height: 30vh;
+  
 }
+
 #project-2 {
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 10px;
   border-radius: 9px;
   width: auto;
-  height: 300px;
-  margin-right: 100px;
-  margin-left: 100px
+  height: 30vh;
+
 }
 #project-3 {
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 10px;
   border-radius: 9px;
   width: auto;
-  height: 300px;
-  margin-right: 100px;
-  margin-left: 100px
+  height: 30vh;
+
 } 
 
 /*--EXPERIENCE CONTENT---*/
@@ -148,21 +144,19 @@ li {
   display: inline-flex;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 14px;
-  padding: 25px 40px;
-  margin-left: 770px;
-  margin-top: 150px;
+  margin-top: 40%;
   padding-bottom: 0px;
-  font-size: 18px;
 }
 .experience-content {
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 10px;
   border-radius: 9px;
-  margin-left: 700px;
-  margin-right: 150px;
+
 }
 p {
-  padding: 20px
+  padding: 20px;
+  width: 60vw;
+  font-size: 14px;
 } 
 }
 
@@ -174,11 +168,11 @@ p {
 
 
 /* MEDIA QUERY*/
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   /* NAVIGATION */
   body {
     font-family:'Spline Sans Mono', monospace ;
-    padding: 50px;
+    /* padding: 50px; */
   }
   #top-nav-name {
     display: flex;
@@ -223,7 +217,7 @@ p {
     margin-top: 20px;
     border-radius: 10px;
     border-radius: 9px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
   }
   #intro-text {
     display: flex;
@@ -244,7 +238,7 @@ p {
     border-radius: 10px;
     border-radius: 9px;
     margin-top: 20px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
   }
   #project-2 {
     display: flex;
@@ -254,7 +248,7 @@ p {
     border-radius: 10px;
     border-radius: 9px;
     margin-top: 20px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
   }
   #project-3 {
     display: flex;
@@ -264,7 +258,7 @@ p {
     border-radius: 10px;
     border-radius: 9px;
     margin-top: 20px;
-    margin-left: 5vw;
+
   }
   /* EXPERIENCE PAGE */
   .experience-page {
