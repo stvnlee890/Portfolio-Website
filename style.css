@@ -44,7 +44,7 @@ li {
 #name {
   font-weight: 600;
   font-size: 60px;
-  margin-top: 80px;
+  margin-top: 120px;
   width:100%;
   text-align: center;
 }
@@ -126,6 +126,7 @@ li {
   justify-content: center;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 16px;
+  padding-top: 90px;
   margin-top: 50%;
 }
 #experience-content {
@@ -137,8 +138,14 @@ li {
 .contact-page {
   display: flex;
   justify-content: center;
+  font-size: 13px;
   margin-top: 40%;
   align-content: center; 
+}
+.sit-title {
+  display: flex;
+  justify-content: center;
+  color: rgba(235, 37, 6, 0.8);
 }
 .stay-in-touch {
   display: flex;
@@ -146,11 +153,12 @@ li {
 }
 #sit-comment {
   font-size: 14px;
-  width: 50%;
+  width: 40%;
 }
 .sit-button {
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 .sit {
   font-family: 'Spline Sans Mono', monospace;
@@ -170,8 +178,9 @@ li {
 }
 .icons {
   width: 35px;
+  cursor: pointer;
 }
-
+}
 
 
 
@@ -324,6 +333,45 @@ li {
     margin-top: 40%;
     align-content: center; 
     font-size: 14px;
+  }
+
+  .sit-title {
+    display: flex;
+    justify-content: center;
+    color: rgba(235, 37, 6, 0.8);
+  }
+  .stay-in-touch {
+    display: flex;
+    justify-content: center;
+  }
+  #sit-comment {
+    font-size: 14px;
+    width: 40%;
+  }
+  .sit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .sit {
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 600;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(235, 37, 6, 0.8);
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+  }
+  .icons {
+    width: 35px;
+    cursor: pointer;
   }
 }
   
