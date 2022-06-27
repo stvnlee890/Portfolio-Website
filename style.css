@@ -159,6 +159,7 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  
 }
 .sit {
   font-family: 'Spline Sans Mono', monospace;
@@ -168,6 +169,7 @@ li {
   background-color: transparent;
   color: rgba(235, 37, 6, 0.8);
   padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
@@ -181,7 +183,33 @@ li {
   cursor: pointer;
 }
 }
+/* MODAL */
 
+.modal-container {
+  transition: 0.9s;
+}
+.resume-modal {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: 0.3s ease;
+}
+.modal-button {
+  top: 0;
+  right: 0;
+  margin: 40px;
+}
+#resume-example {
+  margin-top: 10%;
+  width: 40%;
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.hide {
+  display: none;
+}
 
 
 

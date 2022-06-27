@@ -59,6 +59,33 @@ socialMediaLinks.forEach(btn => {
   })
 })
 
+// MODALS FOR RESUME, GET IN TOUCH, PROJECTS
+
+const resume = document.querySelector('#resume')
+const resumeModal = document.querySelector('#resume-example')
+const modalBtn = document.querySelector('.modal-button')
+
+resume.addEventListener('click', event => {
+  if(event.target === resume){
+    resumeModal.classList.remove('hide')
+    modalBtn.classList.remove('hide')
+  }
+})
+modalBtn.addEventListener('click', event => {
+  if(event.target === document.querySelector('.modal-button')){
+    resumeModal.classList.add('hide')
+    modalBtn.classList.add('hide')
+  }
+})
+//CLASS DISPLAY ON
+//
+
+
+
+
+
+
+
 
 
 // STRETCH GOAL
