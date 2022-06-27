@@ -64,17 +64,22 @@ socialMediaLinks.forEach(btn => {
 const resume = document.querySelector('#resume')
 const resumeModal = document.querySelector('#resume-example')
 const modalBtn = document.querySelector('.modal-button')
-
+const modalCover = document.querySelector('.modalcover')
+const main = document.querySelector('.main')
+//OPEN RESEUME PAGE
 resume.addEventListener('click', event => {
   if(event.target === resume){
     resumeModal.classList.remove('hide')
     modalBtn.classList.remove('hide')
+    // main.classList.add('hide')
   }
 })
+// CLOSE RESUME PAGE
 modalBtn.addEventListener('click', event => {
   if(event.target === document.querySelector('.modal-button')){
     resumeModal.classList.add('hide')
     modalBtn.classList.add('hide')
+    // main.classList.remove('hide')
   }
 })
 //CLASS DISPLAY ON
