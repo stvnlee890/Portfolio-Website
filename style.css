@@ -26,7 +26,7 @@ body {
 
 /* STICKY NAV */
 .nav {
-  cursor: pointer;
+    cursor: pointer;
 }
 li {
   padding-right: 5%;
@@ -88,18 +88,15 @@ li {
   justify-content: center;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 16px;
-  margin-top: 40%;
+  margin-top: 30%;
+  padding-top: 10%;
+ 
 }
-
-.project-content {
-  justify-content: space-between;
+.carousel-images {
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 14px;
   align-content: center; 
-}
-.project-content {
-  display: flex;
-  margin-left: 5%;
-  margin-right: 5%
 }
 #project-1 {
   border: 1px solid rgba(235, 37, 6, 0.8);
@@ -129,7 +126,7 @@ li {
   justify-content: center;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 16px;
-  margin-top: 40%;
+  margin-top: 50%;
 }
 #experience-content {
   justify-content: center;
@@ -143,8 +140,37 @@ li {
   margin-top: 40%;
   align-content: center; 
 }
+.stay-in-touch {
+  display: flex;
+  justify-content: center;
+}
+#sit-comment {
+  font-size: 14px;
+  width: 50%;
+}
+.sit-button {
+  display: flex;
+  justify-content: center;
+}
+.sit {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 600;
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(235, 37, 6, 0.8);
+  padding: 10px;
+  cursor: pointer;
 }
 
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.icons {
+  width: 35px;
+}
 
 
 
@@ -299,5 +325,5 @@ li {
     align-content: center; 
     font-size: 14px;
   }
-  }
+}
   

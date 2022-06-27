@@ -2,19 +2,17 @@
 
 const navBar = document.querySelectorAll('.nav')
 console.log(navBar)
-
+const name = document.querySelector('#name')
 const about = document.querySelector('#about')
 const projects = document.querySelector('#projects')
 const experience = document.querySelector('#experience')
 const contact = document.querySelector('#contact')
 
+
 const intro = document.querySelector('.introduction')
 const projectPage = document.querySelector('.project-page')
 const experiencePage = document.querySelector('.experience-page')
 const contactPage = document.querySelector('.contact-page')
-
-
-
 
 navBar.forEach(button => {
   button.addEventListener('click', event => {
@@ -27,7 +25,7 @@ navBar.forEach(button => {
         behavior : 'smooth'
       })
     }else if(event.target === about){
-      intro.scrollIntoView({
+      name.scrollIntoView({
         behavior : 'smooth'
       })
     }else if(event.target === contact){
