@@ -1,5 +1,5 @@
 
-
+// NAV BAR SCROLL TO CONTENT
 const navBar = document.querySelectorAll('.nav')
 console.log(navBar)
 const name = document.querySelector('#name')
@@ -7,7 +7,6 @@ const about = document.querySelector('#about')
 const projects = document.querySelector('#projects')
 const experience = document.querySelector('#experience')
 const contact = document.querySelector('#contact')
-
 
 const intro = document.querySelector('.introduction')
 const projectPage = document.querySelector('.project-page')
@@ -36,14 +35,29 @@ navBar.forEach(button => {
   })
 })
 
-
-
-
 window.addEventListener('click', event => {
   console.log(event.target)
 })
 
-
+// SOCIAL MEDIA LINKS
+const socialMediaLinks = document.querySelectorAll('.social-media-icons')
+const linkedinProfile = document.querySelector('#linkedin-profile')
+const githubProfile = document.querySelector('#github-profile')
+const codePenProfile = document.querySelector('#codepen-profile')
+const instagramProfile = document.querySelector('instagram-profile')
+socialMediaLinks.forEach(btn => {
+  btn.addEventListener('click', event => {
+    if(event.target === document.querySelector('#linkedin')){
+      linkedinProfile
+    }if(event.tartget === document.querySelector('#github')){
+      githubProfile
+    }if(event.target === document.querySelector('#codepen')){
+      codePenProfile
+    }if(event.target === document.querySelector('#instagram')){
+      instagramProfile
+    }
+  })
+})
 
 
 

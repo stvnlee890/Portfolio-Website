@@ -274,7 +274,8 @@ li {
     justify-content: center;
     font-family: 'Spline Sans Mono', monospace;
     font-size: 14px;
-    margin-top: 40%;
+    margin-top: 50%;
+    padding-top: 90px;
   }
   
   .project-content {
@@ -316,7 +317,8 @@ li {
     justify-content: center;
     font-family: 'Spline Sans Mono', monospace;
     font-size: 14px;
-    margin-top: 40%;
+    padding-top: 90px;
+    margin-top: 50%;
   }
   #experience-content {
     justify-content: center;
@@ -340,13 +342,14 @@ li {
     justify-content: center;
     color: rgba(235, 37, 6, 0.8);
   }
+
   .stay-in-touch {
     display: flex;
     justify-content: center;
   }
   #sit-comment {
     font-size: 14px;
-    width: 40%;
+    width: 60%;
   }
   .sit-button {
     display: flex;
@@ -363,7 +366,6 @@ li {
     padding: 10px;
     cursor: pointer;
   }
-
   .social-media {
     display: flex;
     justify-content: space-evenly;
