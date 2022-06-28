@@ -59,8 +59,7 @@ socialMediaLinks.forEach(btn => {
   })
 })
 
-// MODALS FOR RESUME, GET IN TOUCH, PROJECTS
-
+// MODALS FOR RESUME
 const resume = document.querySelector('#resume')
 const resumeModal = document.querySelector('#resume-example')
 const modalBtn = document.querySelector('.modal-button')
@@ -79,16 +78,63 @@ modalBtn.addEventListener('click', event => {
   if(event.target === document.querySelector('.modal-button')){
     resumeModal.classList.add('hide')
     modalBtn.classList.add('hide')
-    // main.classList.remove('hide')
+    
   }
 })
-//CLASS DISPLAY ON
-//
+
+//PROJECTS MODAL 
+const hideModal = document.querySelector('.hide-modal1')
+const hideModal2 = document.querySelector('.hide-modal2')
+const hideModal3 = document.querySelector('.hide-modal3')
+const projectModalButton = document.querySelector('.project-modal-button')
+const projectModalButton2 = document.querySelector('.project-modal-button2')
+const projectModalButton3 = document.querySelector('.project-modal-button3')
+const project1 = document.querySelector('#project-1')
+const project2 = document.querySelector('#project-2')
+const project3 = document.querySelector('#project-3')
+
+console.log(projectModalButton3)
+console.log(hideModal3)
+
+project1.addEventListener('click', event => {
+    (event.target === project1)
+    hideModal.classList.remove('hide')
+})
+projectModalButton.addEventListener('click', event => {
+  event.target === projectModalButton
+    hideModal.classList.add('hide')
+})
+
+project2.addEventListener('click', event => {
+  event.target === project2
+    hideModal2.classList.remove('hide')
+})
+projectModalButton2.addEventListener('click', event => {
+  event.target === projectModalButton2
+  hideModal2.classList.add('hide')
+})
+
+project3.addEventListener('click', event => {
+  event.target === project3
+    hideModal3.classList.remove('hide')
+})
+projectModalButton3.addEventListener('click', event => {
+  event.target === projectModalButton3
+  hideModal3.classList.add('hide')
+})
 
 
 
-
-
+// project2.addEventListener('click', event => {
+//   if(event.target === project2){
+//     hideModal2.classList.remove('hide')
+//   }
+// })
+// projectModalButton2.addEventListener('click', event => {
+//   if(event.target === projectModalButton2){
+//     hideModal2.classList.add('hide')
+//   }
+// })
 
 
 
