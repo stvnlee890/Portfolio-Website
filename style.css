@@ -222,11 +222,12 @@ li {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   position: fixed;
-  width: 50vw;
+  width: 60vw;
 }
 .hide {
   display: none;
 }
+
 
 /* projects modal */
 .projects-modal {
@@ -317,11 +318,47 @@ li {
   width: 40vw;
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 8px;
-  background-color: rgba(246, 207, 126, 0.8);
+  background-color: rgba(246, 238, 228, 0.8);
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .project-modal-button3 {
+  top: 0;
+  right: 0;
+  margin-top:20%;
+  margin-right: 10%;
+  position: fixed;
+  font-family: 'Spline Sans Mono', monospace;
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(235, 37, 6, 0.8);
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.contact-modal {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 20%
+}
+#message-modal {
+  text-align: center;
+  height: 60vh;
+  width: 40vw;
+  border: 1px solid rgba(235, 37, 6, 0.8);
+  border-radius: 8px;
+  background-color: rgba(246, 238, 228, 0.8);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.message-button {
   top: 0;
   right: 0;
   margin-top:20%;
@@ -431,14 +468,13 @@ li {
     margin-top: 50%;
     padding-top: 90px;
   }
-  
   .project-content {
     margin-top: 14px;
-    /* align-content: center;  */
+    
   }
   .project-content {
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
     margin-left: 40px;
     margin-right: 5%;
   }
@@ -448,21 +484,21 @@ li {
     border-radius: 10px;
     border-radius: 9px;
     width: auto;
-    height: 30vh;
+    height: 40vh;
   }
   #project-2 {
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 10px;
     border-radius: 9px;
     width: auto;
-    height: 34vh;
+    height: 40vh;
   }
   #project-3 {
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 10px;
     border-radius: 9px;
     width: auto;
-    height: 30vh;
+    height: 40vh;
   } 
   
   /*--EXPERIENCE CONTENT---*/
@@ -529,5 +565,48 @@ li {
     width: 35px;
     cursor: pointer;
   }
+  #resume-example {
+    margin-top: 5%;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    position: fixed;
+    width: 85vw;
+  }
+  #first-project {
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 8px;
+    background-color: rgba(246, 238, 228, 0.8);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+  }
+  #first-project2 {
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 8px;
+    background-color: rgba(246, 238, 228, 0.8);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+  }
+  #first-project3 {
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 8px;
+    background-color: rgba(246, 238, 228, 0.8);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+  }
+
 }
   

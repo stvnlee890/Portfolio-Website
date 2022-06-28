@@ -1,7 +1,6 @@
 
 // NAV BAR SCROLL TO CONTENT
 const navBar = document.querySelectorAll('.nav')
-console.log(navBar)
 const name = document.querySelector('#name')
 const about = document.querySelector('#about')
 const projects = document.querySelector('#projects')
@@ -67,20 +66,20 @@ const modalCover = document.querySelector('.modalcover')
 const main = document.querySelector('.main')
 //OPEN RESEUME PAGE
 resume.addEventListener('click', event => {
-  if(event.target === resume){
+  event.target === resume
     resumeModal.classList.remove('hide')
     modalBtn.classList.remove('hide')
     // main.classList.add('hide')
-  }
-})
+}
+)
 // CLOSE RESUME PAGE
 modalBtn.addEventListener('click', event => {
-  if(event.target === document.querySelector('.modal-button')){
+ event.target === document.querySelector('.modal-button')
     resumeModal.classList.add('hide')
     modalBtn.classList.add('hide')
     
   }
-})
+)
 
 //PROJECTS MODAL 
 const hideModal = document.querySelector('.hide-modal1')
@@ -92,9 +91,6 @@ const projectModalButton3 = document.querySelector('.project-modal-button3')
 const project1 = document.querySelector('#project-1')
 const project2 = document.querySelector('#project-2')
 const project3 = document.querySelector('#project-3')
-
-console.log(projectModalButton3)
-console.log(hideModal3)
 
 project1.addEventListener('click', event => {
     (event.target === project1)
@@ -123,33 +119,24 @@ projectModalButton3.addEventListener('click', event => {
   hideModal3.classList.add('hide')
 })
 
+//GET IN TOUCH 
+
+const getInTouchBtn = document.querySelector('.sit')
+const contactMessageModal = document.querySelector('.contact-message')
+const messageBtn = document.querySelector('.message-button')
+console.log(getInTouchBtn)
+
+getInTouchBtn.addEventListener('click', event => {
+  event.target === getInTouchBtn
+  contactMessageModal.classList.remove('hide')
+})
+messageBtn.addEventListener('click', event => {
+  event.target === messageBtn
+  contactMessageModal.classList.add('hide')
+})
+console.log(contactMessageModal)
 
 
-// project2.addEventListener('click', event => {
-//   if(event.target === project2){
-//     hideModal2.classList.remove('hide')
-//   }
-// })
-// projectModalButton2.addEventListener('click', event => {
-//   if(event.target === projectModalButton2){
-//     hideModal2.classList.add('hide')
-//   }
-// })
-
-
-
-
-// STRETCH GOAL
-// FIGURE SCROLL DOWN NAV DISAPPEARS, SCROLL UP NAV APPEARS
-// window.addEventListener('scroll', function() {
-//   let scroll = window.scrollY
-//   let scrollDown = document.documentElement.scrollHeight
-//   let lastScrollY = window.pageYOffset
-//  console.log(lastScrollY)
-// })
-// let scrollDown = document.documentElement.scrollHeight
-// console.log(scrollDown)
-// console.log
 
 
 
