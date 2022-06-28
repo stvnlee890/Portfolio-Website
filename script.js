@@ -46,15 +46,14 @@ const codePenProfile = document.querySelector('#codepen-profile')
 const instagramProfile = document.querySelector('instagram-profile')
 socialMediaLinks.forEach(btn => {
   btn.addEventListener('click', event => {
-    if(event.target === document.querySelector('#linkedin')){
+    event.target === document.querySelector('#linkedin')
       linkedinProfile
-    }if(event.tartget === document.querySelector('#github')){
+    (event.tartget === document.querySelector('#github'))
       githubProfile
-    }if(event.target === document.querySelector('#codepen')){
+    (event.target === document.querySelector('#codepen'))
       codePenProfile
-    }if(event.target === document.querySelector('#instagram')){
+    (event.target === document.querySelector('#instagram'))
       instagramProfile
-    }
   })
 })
 
@@ -80,7 +79,6 @@ modalBtn.addEventListener('click', event => {
     
   }
 )
-
 //PROJECTS MODAL 
 const hideModal = document.querySelector('.hide-modal1')
 const hideModal2 = document.querySelector('.hide-modal2')
@@ -120,7 +118,6 @@ projectModalButton3.addEventListener('click', event => {
 })
 
 //GET IN TOUCH, INPUT AND SUBMISSION FORMS
-
 const getInTouchBtn = document.querySelector('.sit')
 const contactMessageModal = document.querySelector('.contact-message')
 const messageBtn = document.querySelector('.message-button')
@@ -147,15 +144,11 @@ messageBtn.addEventListener('click', event => {
 input.forEach(inputs =>{
  inputs.addEventListener('input', function(){
   inputs === fname
-  // array.push(fname.value)
   console.log(fname.value)
   inputs === lname
-  // array.push(lname.value)
   console.log(lname.value)
   inputs === email
-  // array.push(email.value)
   console.log(email.value)
-
   console.log(array)
  })
 })
@@ -173,7 +166,5 @@ contactButton.addEventListener('click', event=> {
 })
 
 
-
-console.log(array)
 
 
