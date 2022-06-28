@@ -399,7 +399,7 @@ form {
     font-family: 'Spline Sans Mono', monospace; 
     max-width: 100%;
     margin-top: 0px;
-    background-color: rgba(240, 232, 209, 0.8);
+    background-color: rgba(158, 158, 158, 0.46);
   }
   
   /* STICKY NAV */
@@ -414,7 +414,7 @@ form {
     list-style: none;
     padding-top: 40px;
     justify-content: center;
-    background-color: rgba(240, 232, 209, 0.8)
+    background-color: transparent;
   }
   
   /* STICKY NAV */
@@ -595,7 +595,7 @@ form {
     width: 40vw;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 8px;
-    background-color: rgba(246, 238, 228, 0.8);
+    background-color: rgba(158, 158, 158, 0.46);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 12px;
@@ -606,7 +606,7 @@ form {
     width: 40vw;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 8px;
-    background-color: rgba(246, 238, 228, 0.8);
+    background-color: rgba(158, 158, 158, 0.46);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 12px;
@@ -617,11 +617,62 @@ form {
     width: 40vw;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 8px;
-    background-color: rgba(246, 238, 228, 0.8);
+    background-color: rgba(158, 158, 158, 0.46);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 12px;
   }
 
+  .contact-modal {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 20%
+  }
+  #message-modal {
+    text-align: center;
+    height: 40vh;
+    width: 49vw;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.46);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .message-button {
+    top: 0;
+    right: 0;
+    margin-top:20%;
+    margin-right: 10%;
+    position: fixed;
+    font-family: 'Spline Sans Mono', monospace;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(235, 37, 6, 0.8);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  form {
+    margin-top: 5%;
+    font-weight: 600;
+  }
+  #contact-button {
+    margin-top: 10px;
+    font-family: 'Spline Sans Mono', monospace;
+    border: 1px solid rgba(235, 37, 6, 0.8);
+    border-radius: 4px;
+    background-color: white;
+    color: rgba(235, 37, 6, 0.8);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
 }
   
