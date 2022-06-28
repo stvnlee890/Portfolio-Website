@@ -14,9 +14,9 @@ Reimagined simple portfolio website constructed with HTML, CSS, and vanilla Java
 ## Planning 
 
 ## Wireframing
-/images/wireframe 1.png
-/images/wireframe 2.png
-/images/wireframe 3.png
+/images/wireframe1.png
+/images/wireframe2.png
+/images/wireframe3.png
 
 ## User Story
 *	As a user viewing my portfolio page, I want to see who this person is. I want to know where they’re headed, what they’re interested in, and how they got here. A good introduction, with maybe an image of themselves.
