@@ -119,12 +119,20 @@ projectModalButton3.addEventListener('click', event => {
   hideModal3.classList.add('hide')
 })
 
-//GET IN TOUCH 
+//GET IN TOUCH, INPUT AND SUBMISSION FORMS
 
 const getInTouchBtn = document.querySelector('.sit')
 const contactMessageModal = document.querySelector('.contact-message')
 const messageBtn = document.querySelector('.message-button')
-console.log(getInTouchBtn)
+const contactButton = document.querySelector('#contact-button')
+
+
+const input = document.querySelectorAll('input')
+const fname = document.querySelector('#fname')
+const lname = document.querySelector('#lname')
+const email = document.querySelector('#email')
+
+const array = [];
 
 getInTouchBtn.addEventListener('click', event => {
   event.target === getInTouchBtn
@@ -134,34 +142,38 @@ messageBtn.addEventListener('click', event => {
   event.target === messageBtn
   contactMessageModal.classList.add('hide')
 })
-console.log(contactMessageModal)
+
+
+input.forEach(inputs =>{
+ inputs.addEventListener('input', function(){
+  inputs === fname
+  // array.push(fname.value)
+  console.log(fname.value)
+  inputs === lname
+  // array.push(lname.value)
+  console.log(lname.value)
+  inputs === email
+  // array.push(email.value)
+  console.log(email.value)
+
+  console.log(array)
+ })
+})
+
+contactButton.addEventListener('click', event=> {
+  event.target === contactButton
+  array.push(fname.value)
+  array.push(lname.value)
+  array.push(email.value)
+  console.log(array)
+  fname.value =''
+  lname.value =''
+  email.value =''
+  contactMessageModal.classList.add('hide')
+})
 
 
 
+console.log(array)
 
 
-
-// BUTTON CAROUSEL
-
-// const carouselImage = document.querySelector('.carousel-images');
-// const carouselButtons = document.querySelectorAll ('.carousel-button');
-// const numberOfImages = document.querySelectorAll('carousel-images img').length;
-// let imageIndex = 1;
-// let translateX = 0;
-// console.log()
-// carouselButtons.forEach(button => {
-//   button.addEventListener('click', event => {
-//     if(event.target.id === 'previous') {
-//       if(imageIndex !== 1) {
-//         imageIndex--;
-//         translateX += 500;
-//       }
-//     }else{
-//       if(imageIndex !== numberOfImages) {
-//         imageIndex++;
-//         translateX-= 400;
-//       }
-//     }
-//     carouselImage.style.transform = `translateX(${translateX}px)`
-//   })
-// })
