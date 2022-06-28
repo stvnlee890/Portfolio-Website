@@ -224,7 +224,7 @@ li {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   position: fixed;
-  width: 40vw;
+  width: 550px;
 }
 .hide {
   display: none;
@@ -353,7 +353,7 @@ li {
 #message-modal {
   text-align: center;
   height: 40vh;
-  width: 40vw;
+  width: 50vw;
   border: 1px solid rgba(235, 37, 6, 0.8);
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.46);
@@ -377,7 +377,7 @@ li {
 }
 form {
   margin-top: 5%;
-  font-weight: 600;
+  font-weight: 300;
 }
 #contact-button {
   margin-top: 10px;
@@ -635,8 +635,8 @@ form {
   }
   #message-modal {
     text-align: center;
-    height: 40vh;
-    width: 49vw;
+    height: 50vh;
+    width: 55vw;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 8px;
     background-color: rgba(158, 158, 158, 0.46);
@@ -679,4 +679,3 @@ form {
   }
 
 }
-  
