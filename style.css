@@ -1,16 +1,10 @@
-
-/*---HEADER---*/
 @media(min-width: 600px) {
-
 body {
   font-family: 'Spline Sans Mono', monospace; 
   max-width: 100%;
   margin-top: 0px;
   background-color: rgba(158, 158, 158, 0.46)
 }
-
-/* STICKY NAV */
-
  #top-nav-bar {
   display: flex;
   position: fixed;
@@ -23,8 +17,6 @@ body {
   justify-content: space-evenly;
   background-color: transparent
 }
-
-/* STICKY NAV */
 .nav {
     cursor: pointer;
 }
@@ -48,10 +40,6 @@ li {
   width:100%;
   text-align: center;
 }
-
-/*---BODY---*/
-
-/*--INTRO CONTENT---*/
  .introduction {
   display: flex;
   justify-content: center;
@@ -81,9 +69,6 @@ li {
   font-size: 14px;
   margin-left: 30px;
 } 
-
-
-/*--PROJECT CONTENT---*/
   .project-page {
   display: flex;
   justify-content: center;
@@ -127,7 +112,6 @@ li {
   cursor: pointer;
 } 
 
-/*--EXPERIENCE CONTENT---*/
 .experience-page {
   display: flex;
   justify-content: center;
@@ -192,7 +176,6 @@ li {
   cursor: pointer;
 }
 }
-/* MODAL */
 
 .modal-container {
   transition: 0.9s;
@@ -205,7 +188,7 @@ li {
 .modal-button {
   top: 0;
   right: 0;
-  margin-top:10%;
+  margin-top: 10%;
   margin-right: 10%;
   position: fixed;
   font-family: 'Spline Sans Mono', monospace;
@@ -229,9 +212,6 @@ li {
 .hide {
   display: none;
 }
-
-
-/* projects modal */
 .projects-modal {
   display: flex;
   justify-content: center;
@@ -267,7 +247,6 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
-
 .projects-modal2 {
   display: flex;
   justify-content: center;
@@ -303,7 +282,6 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
-
 .projects-modal3 {
   display: flex;
   justify-content: center;
@@ -339,7 +317,6 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
-
 .contact-modal {
   display: flex;
   justify-content: center;
@@ -391,9 +368,6 @@ form {
   cursor: pointer;
 }
 
-
-
-/* MEDIA QUERY*/
 @media (max-width: 600px) {
   body {
     font-family: 'Spline Sans Mono', monospace; 
@@ -401,9 +375,7 @@ form {
     margin-top: 0px;
     background-color: rgba(158, 158, 158, 0.46);
   }
-  
-  /* STICKY NAV */
-  
+
    #top-nav-bar {
     display: flex;
     position: fixed;
@@ -416,8 +388,6 @@ form {
     justify-content: center;
     background-color: transparent;
   }
-  
-  /* STICKY NAV */
   li {
     padding-right: 4%;
     font-size: 12px;
@@ -431,7 +401,7 @@ form {
     color: rgba(235, 37, 6, 0.8);
     padding-right: none;
   } 
-  
+
   #name {
     font-weight: 600;
     font-size: 40px;
@@ -439,10 +409,6 @@ form {
     width:100%;
     text-align: center;
   }
-  
-  /*---BODY---*/
-  
-  /*--INTRO CONTENT---*/
    .introduction {
     display: flex;
     justify-content: center;
@@ -473,8 +439,6 @@ form {
     margin-left: 30px;
   } 
   
-  
-  /*--PROJECT CONTENT---*/
     .project-page {
     display: flex;
     justify-content: center;
@@ -516,7 +480,6 @@ form {
     height: 40vh;
   } 
   
-  /*--EXPERIENCE CONTENT---*/
   .experience-page {
     display: flex;
     justify-content: center;
@@ -541,13 +504,11 @@ form {
     align-content: center; 
     font-size: 14px;
   }
-
   .sit-title {
     display: flex;
     justify-content: center;
     color: rgba(235, 37, 6, 0.8);
   }
-
   .stay-in-touch {
     display: flex;
     justify-content: center;
@@ -642,6 +603,7 @@ form {
     background-color: rgba(158, 158, 158, 0.46);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
   }
   .message-button {
     top: 0;
