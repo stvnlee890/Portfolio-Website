@@ -14,9 +14,10 @@ Reimagined simple portfolio website constructed with HTML, CSS, and vanilla Java
 ## Planning 
 
 ## Wireframing
-/images/wireframe1.png
-/images/wireframe2.png
-/images/wireframe3.png
+<img width="1046" alt="Screen Shot 2022-06-27 at 10 17 45 PM" src="https://user-images.githubusercontent.com/106281820/176098707-3de51892-1e83-4a6d-b8e6-5199ef276c14.png">
+<img width="1047" alt="Screen Shot 2022-06-27 at 10 18 11 PM" src="https://user-images.githubusercontent.com/106281820/176098723-23a5beaf-796d-4e12-9edd-21d74c36963a.png">
+<img width="1046" alt="Screen Shot 2022-06-27 at 10 18 26 PM" src="https://user-images.githubusercontent.com/106281820/176098742-6faa9ff8-61a5-42f3-a45e-5443d66172b6.png">
+
 
 ## User Story
 *	As a user viewing my portfolio page, I want to see who this person is. I want to know where they’re headed, what they’re interested in, and how they got here. A good introduction, with maybe an image of themselves.
