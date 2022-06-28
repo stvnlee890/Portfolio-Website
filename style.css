@@ -161,7 +161,7 @@ li {
 #sit-comment {
   font-size: 14px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 300;
   width: 20%;
 }
 .sit-button {
@@ -224,7 +224,7 @@ li {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   position: fixed;
-  width: 60vw;
+  width: 40vw;
 }
 .hide {
   display: none;
@@ -639,7 +639,7 @@ form {
     width: 49vw;
     border: 1px solid rgba(235, 37, 6, 0.8);
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.46);
+    background-color: rgba(158, 158, 158, 0.46);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -673,6 +673,10 @@ form {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
-  
+  h2 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
 }
   
