@@ -1,7 +1,7 @@
 # Portfolio-Website
 
 Introduction 
-Reimagined simple portfolio website constructed with HTML, CSS, and vanilla Javascript. I wanted a smooth and functional website where users can focus on the contents rather than getting lost and confused. The site is easy and intuitive to navigate through without having to wonder where the close button might be located. My goal is to create extremely thoughtful functionalities while maintaining a minimalist aesthetic. I believe that less is more and anything excessive should be made with much consideration. Feel free to browse to the site and examine the code behind it!
+Reimagined simple portfolio website constructed with HTML, CSS, and Javascript. I wanted a smooth and functional website where users can focus on the contents rather than getting lost and confused. The site is easy and intuitive to navigate through without having to wonder where the close button might be located. My goal is to create extremely thoughtful functionalities while maintaining a minimalist aesthetic. I believe that less is more and anything excessive should be made with much consideration. Feel free to browse to the site and examine the code behind it!
 
 ## Installation
 1.	Fork and clone this repository.
@@ -27,7 +27,7 @@ Reimagined simple portfolio website constructed with HTML, CSS, and vanilla Java
 *	Design === important as functionality.
 
 ## Planning 
-*	Many of the functionalities on this site were done with vanilla Javascript. These functions include:
+*	Many of the functionalities on this site were done with Javascript. These functions include:
 *	The navigation scroll to content with a smooth display.
 *	Click event listeners for all the modals.
 *	Input listeners on the forms to store contact information. 
