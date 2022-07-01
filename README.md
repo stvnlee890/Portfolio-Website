@@ -33,5 +33,8 @@ Reimagined simple portfolio website constructed with HTML, CSS, and Javascript. 
 *	Input listeners on the forms to store contact information. 
 *	Click event listeners for links to social media page. 
 
+## Link to site
+https://stvnlee890.github.io/Portfolio-Website/
+
 ## About
 Thank you for viewing my portfolio website. My name is Seung Ki Lee (Steven) and I’m an aspiring software engineer studying at General Assembly’s full-time program. I am based in Los Angeles, California and if you have any questions or link up, please check my portfolio website for all the links to my social media and don’t be afraid to hit the “get in touch” button at the end of the page. 
